@@ -1,0 +1,63 @@
+@import "./Variables.scss";
+
+.homepage {
+  text-align: center;
+
+  h2 {
+    color: $mainColor;
+    font-weight: $mainWeight;
+    font-size: $midiSize;
+    text-decoration: none;
+    margin: 40px 10px 0px 10px;
+  }
+
+  .icons {
+    .logo_links {
+      display: inline-block;
+      text-align: center;
+      margin: 5px;
+      h2 {
+        font-size: $resSize;
+      }
+
+      img {
+        width: 180px;
+        border-radius: 5px;
+        margin-bottom: 20px;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .homepage {
+    h2{
+        margin: 30px 5px 5px 5px;
+    }
+    .icons {
+      .logo_links {
+        img {
+          width: 130px;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 560px) {
+  .homepage {
+    h2{
+        margin: 10px 5px 5px 5px;
+    }
+    .icons {
+      column-count: 2;
+      .logo_links {
+        img {
+          width: 130px;
+          margin-bottom: 5px;
+        }
+      }
+    }
+  }
+}
+

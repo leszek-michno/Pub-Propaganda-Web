@@ -1,0 +1,36 @@
+@import "./Variables.scss";
+
+.mainPage {
+  height: 100vh;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  h3 {
+    font-size: $midiSize;
+    font-weight: $mainWeight;
+    margin: 5px;
+    color: $mainColor;
+  }
+  .flags {
+    height: 120px;
+    border: solid 2px $mainColor;
+    border-radius: 5px;
+    margin: 10px;
+    &:hover {
+      transform: scale(1.1);
+      transition: 1s;
+    }
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .mainPage{
+  .flags {
+    height: 50px;
+  }
+  h3 {
+    font-size: $resSize;
+  }
+}
+}
