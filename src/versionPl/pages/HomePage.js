@@ -4,8 +4,9 @@ import "../../styles/HomePage.scss";
 
 const HomePage = () => {
   return (
+    <>
+    <h2>Jeden z najstarszych pubów na krakowskim Kazimierzu</h2>
     <div className="homepage">
-      <h2>Miejsce nie dla wszystkich</h2>
       <div className="icons">
         <NewsLink />
         <MenuLink/>
@@ -13,6 +14,7 @@ const HomePage = () => {
         <GalleryLink/>  
       </div>
     </div>
+    </>
   );
 };
 

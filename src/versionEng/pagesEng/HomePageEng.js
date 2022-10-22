@@ -4,7 +4,7 @@ import { ContactLink, GalleryLink, MenuLink, NewsLink } from '../componens/HomeP
 const HomePageEng = () => {
     return (
         <div className="homepage">
-          <h2>Place not for everybody</h2>
+          <h2>One of the oldest pubs in Krakow's Kazimierz</h2>
           <div className="icons">
             <NewsLink />
             <MenuLink/>

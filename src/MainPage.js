@@ -9,9 +9,9 @@ const MainPage = () => {
         <div className='mainPage'>
             <BarName/>
             <br />
-            <h3>Jeden z najstarszych pubów na krakowskim Kazimierzu</h3>
+            <h3>Miejsce nie dla wszystkich</h3>
             <LinkVersionPl/>
-            <h3>One of the oldest pubs in Krakow's Kazimierz</h3>
+            <h3>Place not for everybody</h3>
             <LinkVersionEng/>     
         </div>
 

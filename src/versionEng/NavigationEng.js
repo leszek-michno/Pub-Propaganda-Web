@@ -27,7 +27,7 @@ const NavigationEng = () => {
   }, []);
 
   const list = [
-    { name: "start", path: "/" },
+    { name: "start", path: "/English" },
     { name: "news", path: "news_Eng" },
     { name: "menu", path: "menu_Eng" },
     { name: "contact", path: "contact_Eng" },
