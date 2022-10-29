@@ -1,6 +1,6 @@
 import React from 'react';
 import { news } from '../../databases/NewsBase';
-import News from '../componets/News';
+import News from '../../components/News';
 import '../../styles/NewsPage.scss';
 
 
@@ -15,3 +15,4 @@ const NewsPage = () => {
   };
   
  export default NewsPage;
+

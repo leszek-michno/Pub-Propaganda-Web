@@ -36,14 +36,14 @@
     cursor: pointer;
     text-align: left;
     &:hover {
-      background-color: $pageBackground;
+      background-image: linear-gradient(black, grey);
     }
   }
   div {
     column-count: 2;
     .menu_text {
       padding: 5px;
-      margin: 0 5px;
+      margin: 0 20px 0 2px;
       display: flex;
       justify-content: space-between;
       color: $pageBackground;
@@ -57,12 +57,14 @@
     h3:hover {
       color: black;
     }
-  
-  button:hover {
-    background-color: azure;
+    button:hover {
+      background-image:linear-gradient(azure, azure);
+    }
   }
+
+  
 }
-}
+// }
 
 @media screen and (max-width: 700px) {
   .menu {

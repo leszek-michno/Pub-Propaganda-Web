@@ -17,7 +17,7 @@ import {
   NoAlcoBeer,
   Wins,
   NoAlco,
-} from "../componets/MenuPosition";
+} from "../../components/MenuPosition";
 
 const MenuPage = () => {
   const [isVisibleDraftBeer, setIsVisibleDraftBeer] = useState(false);

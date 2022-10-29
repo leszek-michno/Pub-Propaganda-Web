@@ -41,7 +41,7 @@ export const GalleryLink = () => {
     return ( 
         <div className='logo_links'>
          <h2>Gallery</h2> 
-        <NavLink to='/photos'>
+        <NavLink to='/english/photos_Eng'> 
         <img src={img1} alt="propa logo" className="imgSepia"/> 
         </NavLink>
         </div>

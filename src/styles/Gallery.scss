@@ -1,0 +1,95 @@
+@import './Variables.scss';
+
+.gallery {
+  width: 80%;
+  margin: 0 auto;
+  column-count: 3;
+  .pics {
+    transition: all 1s ease;
+    cursor: pointer;
+    padding: 10px;
+    box-shadow: 2px 2px 7px;
+    margin-bottom: 12px;
+    &:hover {
+    transform: scale(0.9);
+    }
+  }
+}
+
+.model {
+  border: solid 5px azure;
+  visibility: hidden;
+  position: absolute;
+  left: 20%;
+  z-index: 1;
+  cursor: pointer;
+  img {
+    width: auto;
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+  }
+}
+.model.open {
+  visibility: visible;
+  transform: scale(1);
+  svg {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    height: 2rem;
+    width: 2rem;
+    padding: 5px;
+    background-color: azure;
+    color: brown;
+    cursor: pointer;
+    border-radius: 10px;
+  }
+}
+
+@media (max-width: 1640px) {
+  .model {
+    width: 60%;
+  }
+}
+@media (max-width: 1050px) {
+  .model {
+    width: 84%;
+    left: 8%;
+  }
+}
+
+@media (max-width: 900px) {
+    .model {
+      width: 84%;
+      left: 8%;
+      .pic {
+        transition: 0s;
+          &:hover {
+              transform: scale(1);
+          }
+      }
+    }
+  }
+
+
+@media (max-width: 660px) {
+    .gallery {
+        width: 98%;
+        margin: 0 auto;
+        column-count: 1;
+        .pics {
+          box-shadow: 2px 2px 7px;
+          margin-bottom: 5px;
+          &:hover {
+          transform: scale(1);
+          }
+        }
+      }
+
+  .model.open {
+    display: none;
+  }
+
+}

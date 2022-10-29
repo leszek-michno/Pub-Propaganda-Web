@@ -2,13 +2,13 @@ import React from 'react';
 import Gallery from '../../components/Gallery';
 
 
-const PhotosEng = () => {
+const PhotosPl = () => {
     return (
         <div>
-          <h1 className='menu_title'>Gallery</h1>  
+          <h1 className='menu_title'>Galeria zdjęć</h1>  
           <Gallery/>
         </div>
       );
 }
  
-export default PhotosEng;
+export default PhotosPl;

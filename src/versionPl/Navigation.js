@@ -27,7 +27,7 @@ const Navigation = () => {
   }, []);
 
   const list = [
-    { name: "start", path: "/Polish" },
+    { name: "start", path: "/polish" },
     { name: "aktualności", path: "news" },
     { name: "menu", path: "menu" },
     { name: "kontakt", path: "contact" },
