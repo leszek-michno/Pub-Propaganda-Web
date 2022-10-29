@@ -65,8 +65,8 @@ export const TshirtEng = () => {
   return (
     <div className="text">
       <p>
-        Becouse of the lack of space, we are not able to hold everyone
-        t-shirts in the pub. Therefore, if someone wants to buy our t-shirt:
+        Because of the lack of space, we are not able to store everyone
+        t-shirts in the pub. So, if someone wants to buy our t-shirt:
       </p>
       <p>
         1) please place the order (via messenger or e-mail
