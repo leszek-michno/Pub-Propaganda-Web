@@ -12,4 +12,4 @@ const News = (props) => {
     );
   };
   
-  export default News;
+  export default News; 

@@ -4,7 +4,7 @@ import Header from './Header';
 import Navigation from './Navigation';
 import Page from './Page';
 import '../styles/Navigation.scss';
-// import Footer from '../components/Footer';
+
 
 const VersionPl = () => {
     return ( 
@@ -13,7 +13,6 @@ const VersionPl = () => {
     <BarName/>
     <header><Header/></header>
     <main><Page/></main>
-    {/* <footer><Footer/></footer>     */}
     </>
      );
 }

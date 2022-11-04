@@ -10,8 +10,14 @@ import '../../styles/Contact.scss';
 const ContactPage = () => {
   return (
     <>
+    
       <h1 className="menu_title">Kontakt z nami </h1>
       <div className="contact">
+      <div>
+      <h2>Pub Propaganda</h2>
+      <p>ul. Miodowa 20</p>
+      <p>31-055 Kraków</p>
+      </div>
         <a
           href={"https://www.facebook.com/propapub"}
           target="_blank"

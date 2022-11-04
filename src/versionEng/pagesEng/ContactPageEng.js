@@ -12,6 +12,11 @@ const ContactPageEng = () => {
     <>
       <h1 className="menu_title">Contact </h1>
       <div className="contact">
+      <div>
+      <h2>Pub Propaganda</h2>
+      <p> Miodowa str 20</p>
+      <p>31-055 Krakow</p>
+      </div>
         <a
           href={"https://www.facebook.com/propapub"}
           target="_blank"

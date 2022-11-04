@@ -6,17 +6,18 @@ import { Tshirt, Est, Hallow, HallowEng, TshirtEng, EstEng } from './TextsBase';
 
 export const news = [
  
-  {
-    id: 3,
-    title: "Noc pełna strachu!",
-    img: img3,
-    text: <Hallow/>,
-  },
+  
   {
     id: 1,
     title: "Sprzedajemy koszulki z naszym logo",
     img: img1,
     text: <Tshirt/>,
+  },
+  {
+    id: 3,
+    title: "Noc pełna strachu!",
+    img: img3,
+    text: <Hallow/>,
   },
   {
     id: 2,
@@ -29,16 +30,16 @@ export const news = [
 export const newsEng = [
 
   {
-    id: 3,
-    title: "Night of horror!",
-    img: img3,
-    text: <HallowEng/>,
-  },
-  {
     id: 1,
     title: 'T-shirts with our logo',
     img: img1,
     text: <TshirtEng/>,
+  },
+  {
+    id: 3,
+    title: "Night of horror!",
+    img: img3,
+    text: <HallowEng/>,
   },
   {
     id: 2,

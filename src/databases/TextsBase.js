@@ -5,8 +5,8 @@ export const Hallow = () => {
   return (
     <div className="text">
       <p>
-        Halloweenowa noc w propagandzie - jedyna taka przerażająca noc. Przynieś
-        swój kostium i złap nasz specjalne upiorne menu!
+        Halloweenowa noc w propagandzie - jedyna taka przerażająca noc. Przyjdź
+         i zapoznaj się z naszym specjalnym, upiornym menu!
       </p>
       <p>Drzwi do upiorności otworzą się 31.10 o godz. 17.00</p>
     </div>
