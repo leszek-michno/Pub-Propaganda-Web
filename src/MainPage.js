@@ -12,7 +12,7 @@ const MainPage = () => {
             <br />
             <h3>Miejsce nie dla wszystkich</h3>
             <LinkVersionPl/>
-            <h3>Place not for everybody</h3>
+            <h3>Not for everybody</h3>
             <LinkVersionEng/>     
         </div>
 

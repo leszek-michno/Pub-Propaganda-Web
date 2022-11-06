@@ -65,7 +65,7 @@ const MenuPageEng = () => {
         <br />
 
         <button onClick={taggleVisibleBottelBeer}>
-          <h3>Bottled beers</h3>
+          <h3>Bottled beer</h3>
         </button>
         <div>
           {isVisibleBottelBeer
@@ -75,7 +75,7 @@ const MenuPageEng = () => {
         <br />
 
         <button onClick={taggleVisibleWheatBeer}>
-          <h3>Wheat beers</h3>
+          <h3>Wheat beer</h3>
         </button>
         <div>
           {isVisibleWheatBeer
@@ -87,7 +87,7 @@ const MenuPageEng = () => {
         <br />
 
         <button onClick={taggleVisibleNoAlcoBeer}>
-          <h3>Non-alcoholic beers</h3>
+          <h3>Alcohol-free beer</h3>
         </button>
         <div>
           {isVisibleNoAlcoBeer
@@ -97,7 +97,7 @@ const MenuPageEng = () => {
         <br />
 
         <button onClick={taggleVisibleStrongAlco}>
-          <h3>High percentage alcohols</h3>
+          <h3>Strong alcohol</h3>
         </button>
         <div>
           {isVisibleStrongAlco
@@ -107,7 +107,7 @@ const MenuPageEng = () => {
         <br />
 
         <button onClick={taggleVisibleWins}>
-          <h3>Wine and vermouths</h3>
+          <h3>Wine and vermouth</h3>
         </button>
         <div>
           {isVisibleWins
@@ -117,7 +117,7 @@ const MenuPageEng = () => {
         <br />
 
         <button onClick={taggleVisibleNoAlco}>
-          <h3>Alkohol free drinks</h3>
+          <h3>Alkohol-free drinks</h3>
         </button>
         <div>
           {isVisibleNoAlco

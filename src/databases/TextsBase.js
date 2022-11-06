@@ -65,8 +65,8 @@ export const TshirtEng = () => {
   return (
     <div className="text">
       <p>
-        Because of the lack of space, we are not able to store everyone
-        t-shirts in the pub. So, if someone wants to buy our t-shirt:
+        Because of lack of space, we are not able to store all 
+        the t-shirts in the pub. So, if someone wants to buy our t-shirt:
       </p>
       <p>
         1) please place the order (via messenger or e-mail
@@ -77,7 +77,7 @@ export const TshirtEng = () => {
         person), the number and size of the ordered t-shirts;
       </p>
       <p> 2) the next day the goods will be available for collection at the Propaganda Pub; </p>
-      <p> 3) he will be waiting for the ordering party there for a week; </p>
+      <p> 3) it will be waiting for you there for a week; </p>
       <p>
         {""}
         4) if it is not picked up within this time, the order will be
@@ -86,10 +86,10 @@ export const TshirtEng = () => {
       <p> Price of one t-shirt: PLN 60 (payable upon delivery). </p>
       <span> We currently have t-shirts: </span>
       <br />
-      <span> - feminine in sizes L, M, S, XS; </span>
+      <span> - for women in sizes L, M, S, XS; </span>
       <br />
-      <span> - men in sizes: XL, L, M, S. </span>
-      <p> Note! We do not sell by mail order. </p>
+      <span> - for men in sizes: XL, L, M, S. </span>
+      <p> Please note, we do not sell by mail order. </p>
     </div>
     );
 }

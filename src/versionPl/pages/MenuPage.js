@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import '../../styles/Menu.scss'
+import "../../styles/Menu.scss";
 import {
   draftBeer,
   bottleBeer,
@@ -28,33 +28,15 @@ const MenuPage = () => {
   const [isVisibleWins, setIsVisibleWins] = useState(false);
   const [isVisibleNoAlco, setIsVisibleNoAlco] = useState(false);
 
-  const taggleVisibleDraftBeet = () => {
-    setIsVisibleDraftBeer(!isVisibleDraftBeer);
-  };
-  const taggleVisibleBottelBeer = () => {
-    setIsVisibleBottleBeer(!isVisibleBottelBeer);
-  };
-  const taggleVisibleWheatBeer = () => {
-    setIsVisibleWheatBeer(!isVisibleWheatBeer);
-  };
-  const taggleVisibleNoAlcoBeer = () => {
-    setIsVisibleNoAlcoBeer(!isVisibleNoAlcoBeer);
-  };
-  const taggleVisibleStrongAlco = () => {
-    setIsVisibleStrongAlco(!isVisibleStrongAlco);
-  };
-  const taggleVisibleWins = () => {
-    setIsVisibleWins(!isVisibleWins);
-  };
-  const taggleVisibleNoAlco = () => {
-    setIsVisibleNoAlco(!isVisibleNoAlco);
-  };
-
   return (
     <div>
       <h1 className="menu_title">Menu</h1>
       <div className="menu">
-        <button onClick={taggleVisibleDraftBeet}>
+        <button
+          onClick={() => {
+            setIsVisibleDraftBeer(!isVisibleDraftBeer);
+          }}
+        >
           <h3>Piwo lane</h3>
         </button>
         <div>
@@ -63,8 +45,11 @@ const MenuPage = () => {
             : null}
         </div>
         <br />
-
-        <button onClick={taggleVisibleBottelBeer}>
+        <button
+          onClick={() => {
+            setIsVisibleBottleBeer(!isVisibleBottelBeer);
+          }}
+        >
           <h3>Piwa butelkowe</h3>
         </button>
         <div>
@@ -73,8 +58,11 @@ const MenuPage = () => {
             : null}
         </div>
         <br />
-
-        <button onClick={taggleVisibleWheatBeer}>
+        <button
+          onClick={() => {
+            setIsVisibleWheatBeer(!isVisibleWheatBeer);
+          }}
+        >
           <h3>Piwa butelkowe pszeniczne</h3>
         </button>
         <div>
@@ -85,8 +73,11 @@ const MenuPage = () => {
             : null}
         </div>
         <br />
-
-        <button onClick={taggleVisibleNoAlcoBeer}>
+        <button
+          onClick={() => {
+            setIsVisibleNoAlcoBeer(!isVisibleNoAlcoBeer);
+          }}
+        >
           <h3>Piwa butelkowe bezalkoholowe</h3>
         </button>
         <div>
@@ -95,8 +86,11 @@ const MenuPage = () => {
             : null}
         </div>
         <br />
-
-        <button onClick={taggleVisibleStrongAlco}>
+        <button
+          onClick={() => {
+            setIsVisibleStrongAlco(!isVisibleStrongAlco);
+          }}
+        >
           <h3>Alkohole wysokoprocentowe</h3>
         </button>
         <div>
@@ -106,7 +100,11 @@ const MenuPage = () => {
         </div>
         <br />
 
-        <button onClick={taggleVisibleWins}>
+        <button
+          onClick={() => {
+            setIsVisibleWins(!isVisibleWins);
+          }}
+        >
           <h3>Wina i wermuty</h3>
         </button>
         <div>
@@ -116,7 +114,11 @@ const MenuPage = () => {
         </div>
         <br />
 
-        <button onClick={taggleVisibleNoAlco}>
+        <button
+          onClick={() => {
+            setIsVisibleNoAlco(!isVisibleNoAlco);
+          }}
+        >
           <h3>Napoje bezalkoholowe</h3>
         </button>
         <div>

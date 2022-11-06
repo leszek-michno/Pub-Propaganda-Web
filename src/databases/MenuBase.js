@@ -9,7 +9,7 @@ export const bottleBeer = [
     { id: 1, name: "Litovel Premium (0,5 l)", price: 12 },
     { id: 2, name: "Litovel Premium Dark (0,5 l)", price: 12 },
     { id: 3, name: "Litovel Citron (0,5 l)", price: 13 },
-    { id: 4, name: "Desperados (0,5 l)", price: 15 },
+    { id: 4, name: "Desperados (0,4 l)", price: 14 },
     { id: 7, name: "West Cost IPA (0,5 l)", price: 16 },
     { id: 8, name: "Sour Mango (0,5 l)", price: 16 },
     { id: 9, name: "Double IPA (0,5 l)", price: 16 },
