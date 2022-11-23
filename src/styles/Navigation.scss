@@ -1,20 +1,17 @@
 @import './Variables.scss'; 
+
 .navi {
   position: fixed;
   z-index:1;
   width: 100%;
   top: 0;
   }
-
   img {
     width: 100%;
-
   }
-  
   .navi_flags{
     width: 30px;
   }
-
 .list {
     list-style-type: none;
     background-color: black;
@@ -23,7 +20,6 @@
     display: flex;
     padding:  10px 0 10px 0;
     width: 100%;
-
     a {
       padding: 10px;
       font-size: 20px;
@@ -36,14 +32,11 @@
     a:hover {
       color: gold;
     }
-    
   }
     
   li {
     list-style-type: none;
     display: inline;
-  
-
   }
   
   .logo {
@@ -71,10 +64,6 @@
       opacity: 0.9;   
     }
   
-    // li:nth-child(1) {
-    //   margin-top: 0px;
-    // }
-  
     li {
       display: block;
       width: 100%;
@@ -86,7 +75,6 @@
     .btn {
       display: block;
       background-color: black;
-      /* opacity: 0.9; */
       width: 100%;
       color: azure;
       padding: 5px 25px 12px 0;

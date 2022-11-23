@@ -39,7 +39,7 @@ const ContactPage = () => {
         >
           <AiOutlineGoogle />
         </a>
-        <a href={"mailto:propaway@propashop.pl"}>
+        <a href={"mailto:contact@pubpropaganda.eu"}>
           <AiOutlineMail />
         </a>
         <h2>Godziny otwarcia lokalu</h2>
