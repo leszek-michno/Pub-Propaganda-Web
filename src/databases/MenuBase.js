@@ -40,7 +40,7 @@ export const strongAlco = [
     { id: 10, name: "Becherovka (40 ml)", price: 14 },
     { id: 11, name: "Jegermaister (40 ml)", price: 14 },
     { id: 12, name: "Gin Seagrams (40 ml)", price: 14 },
-    { id: 13, name: "Gin Bombay (40 ml)", price: 16 },
+    { id: 13, name: "Gin Bombay (40 ml)", price: 18 },
     { id: 14, name: "Capitan Morgan Dark (40 ml)", price: 14 },
     { id: 15, name: "Capitan Morgan Spiced (40 ml)", price: 14 },
     { id: 16, name: "Havana Club (40 ml)", price: 14 },
@@ -55,7 +55,7 @@ export const strongAlco = [
     { id: 25, name: "Malibu (40 ml)", price: 14 },
     { id: 26, name: "Tequila Sierra Silver (40 ml)", price: 14 },
     { id: 27, name: "Tequila Sierra Reposado (40 ml)", price: 16 },
-    { id: 28, name: "Śliwowica Passover (40 ml)", price: 16 },
+    { id: 28, name: "Śliwowica Passover (40 ml)", price: 18 },
   ];  
 
 export const wins = [
