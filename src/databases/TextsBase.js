@@ -1,6 +1,28 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
 
+
+
+export const NewYear = () => {
+  return (
+    <div className="text">
+      <p>
+      As every year, we invite you to Propaganda for New Year's Eve. The bar will be open from 8:00 p.m. to 5.00. IMPORTANT! We are not booking tables this evening.
+      </p>
+    </div>
+  );
+};
+
+export const Sylwester = () => {
+  return (
+    <div className="text">
+      <p>
+      Jak co roku zapraszamy na Sylwestra do Propagandy. Bar będzie otwarty od godz. 20.00 do godz. 5.00. UWAGA! Nie rezerwujemy stolików tego wieczoru.  
+      </p>
+    </div>
+  );
+};
+
 export const Hallow = () => {
   return (
     <div className="text">

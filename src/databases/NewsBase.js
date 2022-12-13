@@ -1,12 +1,19 @@
 import img1 from '../images/Tshirt.webp';
 import img2 from "../images/img13.jpg";
 import img3 from '../images/hallow.png';
-import { Tshirt, Est, Hallow, HallowEng, TshirtEng, EstEng } from './TextsBase';
+import img6 from '../images/sylwek2022.png';
+import img4 from '../images/newyear.png';
+import { Tshirt, Est, Hallow, HallowEng, TshirtEng, EstEng, Sylwester, NewYear } from './TextsBase';
 
-
+//polish version
 export const news = [
  
-  
+  {
+    id: 4,
+    title: "Sylwester 2022!",
+    img: img6,
+    text: <Sylwester/>,
+  },
   {
     id: 1,
     title: "Sprzedajemy koszulki z naszym logo",
@@ -27,8 +34,16 @@ export const news = [
   },
 ];
 
+
+//english version
 export const newsEng = [
 
+  {
+    id: 4,
+    title: "New Year's Eve 2022!",
+    img: img4,
+    text: <NewYear/>,
+  },
   {
     id: 1,
     title: 'T-shirts with our logo',

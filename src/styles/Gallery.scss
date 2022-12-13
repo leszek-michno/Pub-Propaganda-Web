@@ -10,9 +10,11 @@
     padding: 10px;
     box-shadow: 2px 2px 7px;
     margin-bottom: 12px;
-    &:hover {
-    transform: scale(0.9);
-    }
+    // &:hover {
+    // transform: scale(1.1);
+    // opacity: 0.8;
+    // background-color: maroon;
+    // }
   }
 }
 
@@ -28,7 +30,7 @@
     max-width: 100%;
     height: auto;
     display: block;
-    margin: 0 auto;
+    // margin: 0 auto;
   }
 }
 .model.open {
