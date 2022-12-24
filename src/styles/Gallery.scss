@@ -5,16 +5,15 @@
   margin: 0 auto;
   column-count: 3;
   .pics {
-    transition: all 1s ease;
+    
     cursor: pointer;
     padding: 10px;
-    box-shadow: 2px 2px 7px;
+    
     margin-bottom: 12px;
-    // &:hover {
-    // transform: scale(1.1);
-    // opacity: 0.8;
-    // background-color: maroon;
-    // }
+    &:hover {
+    box-shadow: 2px 2px 7px;
+    transition: all 1s ease;
+    }
   }
 }
 
@@ -30,7 +29,6 @@
     max-width: 100%;
     height: auto;
     display: block;
-    // margin: 0 auto;
   }
 }
 .model.open {

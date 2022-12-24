@@ -3,11 +3,21 @@ import img2 from "../images/img13.jpg";
 import img3 from '../images/hallow.png';
 import img6 from '../images/sylwek2022.png';
 import img4 from '../images/newyear.png';
+import img5 from '../images/xmas.png';
+import img7 from '../images/xmasEng.png';
 import { Tshirt, Est, Hallow, HallowEng, TshirtEng, EstEng, Sylwester, NewYear } from './TextsBase';
+
+
+
 
 //polish version
 export const news = [
- 
+  {
+    id: 5,
+    title: "Święta w Propagandzie",
+    img: img5,
+  },
+
   {
     id: 4,
     title: "Sylwester 2022!",
@@ -38,6 +48,11 @@ export const news = [
 //english version
 export const newsEng = [
 
+  {
+    id: 5,
+    title: "Christmas at the Propaganda Pub",
+    img: img7,
+  },
   {
     id: 4,
     title: "New Year's Eve 2022!",
