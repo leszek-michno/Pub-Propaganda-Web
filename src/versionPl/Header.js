@@ -23,6 +23,7 @@ const Header = () => {
         <Route path="menu" element={<Img3 />} />
         <Route path="contact" element={<Contact />} />
         <Route path="photos" element={<Img5 />} />
+        <Route path="aboutUs" element={<Img5 />} />
       </Routes>
     </>
   );

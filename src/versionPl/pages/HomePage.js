@@ -1,5 +1,5 @@
 import React from "react";
-import { ContactLink, GalleryLink, MenuLink, NewsLink } from "../componets/HomePageLinks";
+import { AboutUs, ContactLink, GalleryLink, MenuLink, NewsLink } from "../componets/HomePageLinks";
 import "../../styles/HomePage.scss";
 
 const HomePage = () => {
@@ -12,6 +12,7 @@ const HomePage = () => {
         <MenuLink/>
         <ContactLink/>
         <GalleryLink/>  
+        <AboutUs/>
       </div>
     </div>
     </>

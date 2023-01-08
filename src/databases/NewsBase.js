@@ -12,6 +12,14 @@ import { Tshirt, Est, Hallow, HallowEng, TshirtEng, EstEng, Sylwester, NewYear }
 
 //polish version
 export const news = [
+  
+  {
+    id: 4,
+    title: "Sylwester 2022!",
+    img: img6,
+    text: <Sylwester/>,
+  },
+
   {
     id: 5,
     title: "Święta w Propagandzie",
@@ -19,17 +27,12 @@ export const news = [
   },
 
   {
-    id: 4,
-    title: "Sylwester 2022!",
-    img: img6,
-    text: <Sylwester/>,
-  },
-  {
     id: 1,
     title: "Sprzedajemy koszulki z naszym logo",
     img: img1,
     text: <Tshirt/>,
   },
+
   {
     id: 3,
     title: "Noc pełna strachu!",
@@ -48,16 +51,17 @@ export const news = [
 //english version
 export const newsEng = [
 
-  {
-    id: 5,
-    title: "Christmas at the Propaganda Pub",
-    img: img7,
-  },
+  
   {
     id: 4,
     title: "New Year's Eve 2022!",
     img: img4,
     text: <NewYear/>,
+  },
+  {
+    id: 5,
+    title: "Christmas at the Propaganda Pub",
+    img: img7,
   },
   {
     id: 1,

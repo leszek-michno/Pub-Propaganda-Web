@@ -1,19 +1,15 @@
 @import './Variables.scss';
 
 .gallery {
+  box-shadow: 1px 1px 9px;
   width: 80%;
   margin: 0 auto;
   column-count: 3;
   .pics {
-    
+        
     cursor: pointer;
-    padding: 10px;
-    
+    padding: 6px;
     margin-bottom: 12px;
-    &:hover {
-    box-shadow: 2px 2px 7px;
-    transition: all 1s ease;
-    }
   }
 }
 
@@ -22,6 +18,7 @@
   visibility: hidden;
   position: absolute;
   left: 20%;
+  margin: 0 auto;
   z-index: 1;
   cursor: pointer;
   img {
@@ -61,15 +58,9 @@
 }
 
 @media (max-width: 900px) {
-    .model {
+  .model {
       width: 84%;
       left: 8%;
-      .pic {
-        transition: 0s;
-          &:hover {
-              transform: scale(1);
-          }
-      }
     }
   }
 
@@ -79,13 +70,6 @@
         width: 98%;
         margin: 0 auto;
         column-count: 1;
-        .pics {
-          box-shadow: 2px 2px 7px;
-          margin-bottom: 5px;
-          &:hover {
-          transform: scale(1);
-          }
-        }
       }
 
   .model.open {

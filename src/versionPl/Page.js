@@ -1,5 +1,6 @@
 import React from "react";
 import { Route, Routes } from "react-router-dom";
+import AboutUs from "./pages/AboutUsPage";
 import ContactPage from "./pages/ContactPage";
 import HomePage from "./pages/HomePage";
 import MenuPage from "./pages/MenuPage";
@@ -14,6 +15,7 @@ const Page = () => {
       <Route path="/menu" element={<MenuPage />} />
       <Route path="/contact" element={<ContactPage />} />
       <Route path="/photos" element = {<PhotosPl/>}/>
+      <Route path="/aboutUs" element = {<AboutUs/>}/>
     </Routes>
   );
 };

@@ -32,6 +32,7 @@ const Navigation = () => {
     { name: "menu", path: "menu" },
     { name: "kontakt", path: "contact" },
     { name: "galeria", path: "photos" },
+    { name: "o nas", path: "aboutUs" },
     { name: <GB className="navi_flags"/>, path: "/english" },
   ];
 
