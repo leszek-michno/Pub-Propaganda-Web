@@ -41,6 +41,7 @@ const Navigation = () => {
     </li>
   ));
 
+  
   return (
     <nav className="list">
     <img src={img} alt="logo" className="logo"/>

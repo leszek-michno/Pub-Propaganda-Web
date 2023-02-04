@@ -4,8 +4,7 @@ import img1 from '../../images/pro4.webp'
 
 export const NewsLink = () => {
     return ( 
-        <div className='logo_links'>
-        
+        <div className='logo_links'> 
         <NavLink to='/polish/news'>
         <h2>Aktualności</h2>
         <img src={img1} alt="propa logo" className="imgGray"/> 

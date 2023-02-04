@@ -66,8 +66,8 @@ export const wins = [
   ];
 
   export const noAlco = [
-    { id: 1, name: "Coca cola (but 250 ml)", price: 7 },
-    { id: 2, name: "Coca cola Zero (but 250 ml)", price: 7 },
+    { id: 1, name: "Coca cola (200 ml)", price: 7 },
+    { id: 2, name: "Coca cola Zero (but 200 ml)", price: 7 },
     { id: 3, name: "Tonik (but 250 ml)", price: 7 },
     { id: 4, name: "Sprite (but 250 ml)", price: 7 },
     { id: 5, name: "Fanta (but 250 ml)", price: 7 },
@@ -81,7 +81,6 @@ export const wins = [
     { id: 13, name: "Woda Kinga gaz.(but 350 ml)", price: 7 },
     { id: 14, name: "Kawa", price: 8 },
     { id: 15, name: "Herbata", price: 8 },
-    // { id: 16, name: "Słone paluszki", price: 7 },
+    { id: 16, name: "Chipsy", price: 10 },
     // { id: 17, name: "Orzeszki ziemne", price: 7 },
-
   ];
