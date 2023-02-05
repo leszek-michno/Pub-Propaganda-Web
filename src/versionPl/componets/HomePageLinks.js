@@ -50,14 +50,14 @@ export const GalleryLink = () => {
     
 }
 
-export const AboutUs = () => {
-    return ( 
-        <div className='logo_links'> 
-        <NavLink to='/polish/aboutUs'>
-        <h2>O nas</h2>    
-        <img src={img1} alt="propa logo" /> 
-        </NavLink>
-        </div>
-        );
+// export const AboutUs = () => {
+//     return ( 
+//         <div className='logo_links'> 
+//         <NavLink to='/polish/aboutUs'>
+//         <h2>O nas</h2>    
+//         <img src={img1} alt="propa logo" /> 
+//         </NavLink>
+//         </div>
+//         );
     
-}
+// }

@@ -81,7 +81,7 @@ export const wins = [
     { id: 13, name: "Woda Kinga gaz.(but 350 ml)", price: 7 },
     { id: 14, name: "Kawa", price: 8 },
     { id: 15, name: "Herbata", price: 8 },
-    { id: 16, name: "Słone paluszki", price: 7 },
+    // { id: 16, name: "Słone paluszki", price: 7 },
     // { id: 17, name: "Orzeszki ziemne", price: 7 },
 
   ];

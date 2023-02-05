@@ -1,5 +1,14 @@
 @import "./Variables.scss";
 
+@keyframes open {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
 .menu_title {
   font-size: $titleSize;
   font-weight: $mainWeight;
@@ -40,6 +49,7 @@
     }
   }
   div {
+    
     column-count: 2;
     .menu_text {
       padding: 5px;
@@ -47,6 +57,9 @@
       display: flex;
       justify-content: space-between;
       color: $mainColor;
+      animation-name: open;
+    animation-duration: 1s;
+    animation-fill-mode: both;
     }
   }
 }
@@ -58,11 +71,9 @@
       color: black;
     }
     button:hover {
-      background-image:linear-gradient(azure, azure);
+      background-image: linear-gradient(azure, azure);
     }
   }
-
-  
 }
 // }
 
