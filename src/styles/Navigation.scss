@@ -1,5 +1,14 @@
 @import './Variables.scss'; 
 
+@keyframes list {
+  from {
+    opacity: 0,
+  }
+  to {
+    opacity: 1;
+  }
+}
+
 .navi {
   position: fixed;
   z-index: 1;
@@ -62,6 +71,7 @@
       height: auto;
       position: relative;
       opacity: 0.9;  
+      
     }
   
     li {
@@ -70,6 +80,10 @@
       text-align: center;
       padding: 10px;
       background-color: black;
+      animation-name: list;
+      animation-duration: 1s; 
+      animation-fill-mode: both;
+
     }
   
     .btn {

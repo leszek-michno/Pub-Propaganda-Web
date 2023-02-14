@@ -2,10 +2,10 @@
 
 @keyframes open {
   from {
-    opacity: 0;
+    transform: scale(0);
   }
   to {
-    opacity: 1;
+    transform: scale(1);
   }
 }
 
@@ -33,7 +33,7 @@
     font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
       sans-serif;
     &:hover {
-      color: azure;
+      font-weight: 350;
     }
   }
   button {
@@ -44,12 +44,8 @@
     border: solid 1px $mainColor;
     cursor: pointer;
     text-align: left;
-    &:hover {
-      background-image: linear-gradient(black, grey);
-    }
   }
   div {
-    
     column-count: 2;
     .menu_text {
       padding: 5px;
@@ -58,8 +54,8 @@
       justify-content: space-between;
       color: $mainColor;
       animation-name: open;
-    animation-duration: 1s;
-    animation-fill-mode: both;
+      animation-duration: 0.2s;
+      animation-fill-mode: both;
     }
   }
 }
@@ -67,15 +63,8 @@
 @media screen and (max-width: 950px) {
   .menu {
     width: 80%;
-    h3:hover {
-      color: black;
-    }
-    button:hover {
-      background-image: linear-gradient(azure, azure);
-    }
   }
 }
-// }
 
 @media screen and (max-width: 700px) {
   .menu {

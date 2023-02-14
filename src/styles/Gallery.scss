@@ -13,8 +13,9 @@
 
   width: 80%;
   margin: 0 auto;
+  margin-bottom: 20px;
   column-count: 3;
-  
+
   .pics {        
     cursor: pointer;
     padding: 6px;
@@ -26,16 +27,14 @@
   border: solid 5px azure;
   visibility: hidden;
   position: absolute;
-  bottom: 20px;
-  margin: 0 auto;
   z-index: 1;
   cursor: pointer;
-  
+  top: 30vh;
   
   img {
     width: 100%;
     display: block;
-    
+        
   }
 }
 .model.open {
@@ -46,7 +45,7 @@
   visibility: visible;
   transform: scale(1);
   animation-name: photo;
-  animation-duration: 1s;
+  animation-duration: 0.5s;
   animation-fill-mode: both;
   
   svg {
@@ -89,7 +88,13 @@
         width: 98%;
         margin: 0 auto;
         column-count: 1;
+        margin-bottom: 10px;
+        .pics {
+          box-shadow: 3px 3px 9px;
+        }
       }
+
+    
 
   .model.open {
     display: none;

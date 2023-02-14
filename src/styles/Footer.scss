@@ -1,14 +1,26 @@
 @import './Variables.scss';
 
 .footer {
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-    background-color: black;
-    opacity: 0.9;
-    color: $secondColor;
-    text-align: center;
-    font-size: 12px;
-    padding: 5px;
-  }
-  
+  display: block;
+  background-color: black;
+  opacity: 0.9;
+  color: #fff;
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+.container {
+  max-width: 1080px;
+  margin: 0 auto;
+  padding: 5px 0;
+  font-size: 12px;
+
+
+}
+
+@media (max-width: 850px) {
+  .footer {
+    display: none;
+}
+}

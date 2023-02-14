@@ -4,7 +4,9 @@ import '../styles/Footer.scss'
 const Footer = () => {
     return (
         <div className='footer'>
-        <p>@ Propaway 2022</p>
+          <div className='container'>
+          <p>Copyright &copy; {new Date().getFullYear()} Propaway</p>
+          </div>
         </div>
       );
 }
