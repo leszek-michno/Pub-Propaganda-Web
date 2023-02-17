@@ -24,7 +24,7 @@ export const bottleWheatBeer = [
 
 export const noAlcoBeer = [
     { id: 1, name: "Holba Free (0,5 l)", price: 12 },
-    { id: 2, name: "Heineken (0,5 l)", price: 12 },
+    { id: 2, name: "Heineken (0,5 l)", price: 13 },
   ];
 
 export const strongAlco = [
