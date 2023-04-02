@@ -20,13 +20,13 @@ import {
 } from "../../components/MenuPosition";
 
 const MenuPage = () => {
-  const [isVisibleDraftBeer, setIsVisibleDraftBeer] = useState(false);
-  const [isVisibleBottelBeer, setIsVisibleBottleBeer] = useState(false);
-  const [isVisibleWheatBeer, setIsVisibleWheatBeer] = useState(false);
-  const [isVisibleNoAlcoBeer, setIsVisibleNoAlcoBeer] = useState(false);
-  const [isVisibleStrongAlco, setIsVisibleStrongAlco] = useState(false);
-  const [isVisibleWins, setIsVisibleWins] = useState(false);
-  const [isVisibleNoAlco, setIsVisibleNoAlco] = useState(false);
+  const [isVisibleDraftBeer, setIsVisibleDraftBeer] = useState();
+  const [isVisibleBottelBeer, setIsVisibleBottleBeer] = useState();
+  const [isVisibleWheatBeer, setIsVisibleWheatBeer] = useState();
+  const [isVisibleNoAlcoBeer, setIsVisibleNoAlcoBeer] = useState();
+  const [isVisibleStrongAlco, setIsVisibleStrongAlco] = useState();
+  const [isVisibleWins, setIsVisibleWins] = useState();
+  const [isVisibleNoAlco, setIsVisibleNoAlco] = useState();
 
   return (
     <div>

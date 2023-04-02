@@ -14,6 +14,7 @@
   z-index: 1;
   width: 100%;
   top: 0;
+ 
   }
   img {
     width: 100%;
@@ -29,6 +30,7 @@
     display: flex;
     padding:  10px 0 10px 0;
     width: 100%;
+     
     a {
       padding: 10px;
       font-size: 20px;
@@ -65,13 +67,16 @@
    
    a {
     font-size: 20px;
+    transition: linear 1s;
+    
    }
     .list {
+      transition: width 2s;
       flex-direction: column;
       height: auto;
       position: relative;
-      opacity: 0.9;  
-      
+      opacity: 0.9; 
+  
     }
   
     li {
@@ -83,7 +88,6 @@
       animation-name: list;
       animation-duration: 1s; 
       animation-fill-mode: both;
-
     }
   
     .btn {
