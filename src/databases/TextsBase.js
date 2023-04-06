@@ -1,13 +1,13 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
 
-
-
 export const NewYear = () => {
   return (
     <div className="text">
       <p>
-      As every year, we invite you to Propaganda for New Year's Eve. The bar will be open from 8:00 p.m. to 5.00. IMPORTANT! We are not booking tables this evening.
+        As every year, we invite you to Propaganda for New Year's Eve. The bar
+        will be open from 8:00 p.m. to 5.00. IMPORTANT! We are not booking
+        tables this evening.
       </p>
     </div>
   );
@@ -17,7 +17,9 @@ export const Sylwester = () => {
   return (
     <div className="text">
       <p>
-      Jak co roku zapraszamy na Sylwestra do Propagandy. Bar będzie otwarty od godz. 20.00 do godz. 5.00. UWAGA! Nie rezerwujemy stolików tego wieczoru.  
+        Jak co roku zapraszamy na Sylwestra do Propagandy. Bar będzie otwarty od
+        godz. 20.00 do godz. 5.00. UWAGA! Nie rezerwujemy stolików tego
+        wieczoru.
       </p>
     </div>
   );
@@ -28,7 +30,7 @@ export const Hallow = () => {
     <div className="text">
       <p>
         Halloweenowa noc w propagandzie - jedyna taka przerażająca noc. Przyjdź
-         i zapoznaj się z naszym specjalnym, upiornym menu!
+        i zapoznaj się z naszym specjalnym, upiornym menu!
       </p>
       <p>Drzwi do upiorności otworzą się 31.10 o godz. 17.00</p>
     </div>
@@ -87,18 +89,22 @@ export const TshirtEng = () => {
   return (
     <div className="text">
       <p>
-        Because of lack of space, we are not able to store all 
-        the t-shirts in the pub. So, if someone wants to buy our t-shirt:
+        Because of lack of space, we are not able to store all the t-shirts in
+        the pub. So, if someone wants to buy our t-shirt:
       </p>
       <p>
         1) please place the order (via messenger or e-mail
-        <NavLink className = "link" to = "/english/contact_Eng">
-          <em> click here </em> 
+        <NavLink className="link" to="/english/contact_Eng">
+          <em> click here </em>
         </NavLink>
-        ). It is enough to enter a name (so that we can pass the goods to the appropriate 
-        person), the number and size of the ordered t-shirts;
+        ). It is enough to enter a name (so that we can pass the goods to the
+        appropriate person), the number and size of the ordered t-shirts;
       </p>
-      <p> 2) the next day the goods will be available for collection at the Propaganda Pub; </p>
+      <p>
+        {" "}
+        2) the next day the goods will be available for collection at the
+        Propaganda Pub;{" "}
+      </p>
       <p> 3) it will be waiting for you there for a week; </p>
       <p>
         {""}
@@ -113,35 +119,33 @@ export const TshirtEng = () => {
       <span> - for men in sizes: XL, L, M, S. </span>
       <p> Please note, we do not sell by mail order. </p>
     </div>
-    );
-}
-
-
+  );
+};
 
 export const Est = () => {
   return (
     <div className="text">
       <br />
+      <p> - piątek (7 kwietnia) lokal otwarty od godz. 18.00 do godz. 4.00; </p>
+      <p> - sobota (8 kwietnia) lokal zamknięty; </p>
       <p>
-        W piątek (15 kwietnia) i sobotę (16 kwietnia) lokal otwarty od godz.
-        18.00 do godz. 4.00.
+        {" "}
+        - niedziela (9 kwietnia) lokal otwarty od godz 18.00 do godz. 3.00;{" "}
       </p>
-      <p>W niedzielę (17 kwietnia) lokal zamknięty!</p>
-      <p>W poniedziałek (18 kwietnia) lokal otwarty od 17.00 do 2.00.</p>
+      <p> - poniedziałek (10 kwietnia) lokal otwarty od 17.00 do godz. 2.00. </p>
     </div>
   );
 };
 
 export const EstEng = () => {
   return (
-    <div className = "text">
-       <br />
-       <p>
-         On Friday (April 15) and Saturday (April 16), the pub is open from
-         6 pm to 4 am
-       </p>
-       <p> The place is closed on Sunday (April 17)! </p>
-       <p> On Monday (April 18) the place is open from 5 pm to 2.00 am. </p>
-     </div>
-    );
-}
+    <div className="text">
+      <br />
+      <p>- Friday (April 7) the pub is open from 6 pm to 4 am;</p>
+      <p>- Saturday (April 8) the pub is closed;</p>
+      <p>- Sunday (April 9) the pub is open from 6 pm to 3 am </p>
+      <p>- Monday (April 10) the pub is open from 5 pm to 2.00 am. </p>
+    </div>
+  );
+};
+

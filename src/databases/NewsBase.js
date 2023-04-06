@@ -12,7 +12,12 @@ import { Tshirt, Est, Hallow, HallowEng, TshirtEng, EstEng, Sylwester, NewYear }
 
 //polish version
 export const news = [
-  
+  {
+    id: 2,
+    title: "Wielkanoc w Propagandzie",
+    img: img2,
+    text: <Est/>,
+  },
   {
     id: 1,
     title: "Sprzedajemy koszulki z naszym logo",
@@ -38,18 +43,19 @@ export const news = [
     img: img3,
     text: <Hallow/>,
   },
-  {
-    id: 2,
-    title: "Wielkanoc w Propagandzie",
-    img: img2,
-    text: <Est/>,
-  },
+ 
 ];
 
 
 //english version
 export const newsEng = [
 
+  {
+    id: 2,
+    title: "Easter in Propaganda",
+    img: img2,
+    text: <EstEng/>,
+  },
   {
     id: 1,
     title: 'T-shirts with our logo',
@@ -73,10 +79,5 @@ export const newsEng = [
     img: img3,
     text: <HallowEng/>,
   },
-  {
-    id: 2,
-    title: "Easter in Propaganda",
-    img: img2,
-    text: <EstEng/>,
-  },
+ 
 ];
