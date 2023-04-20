@@ -4,7 +4,7 @@ import React from 'react';
 const AboutUs = () => {
     return ( 
         <div>
-            O nas pare słów
+            O nas parę słów
         </div>
      );
 }
