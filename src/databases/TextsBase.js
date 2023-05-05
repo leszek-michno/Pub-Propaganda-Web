@@ -85,6 +85,32 @@ export const Tshirt = () => {
   );
 };
 
+export const JobOffer = () => {
+  return (
+    <div className="text">
+      <br/>
+      <p>
+        Szukamy osób z doświadczeniem barmańskim do pracy w naszym pubie. Praca
+        jest ciężka (w godzinach popołudniowych i nocnych).{" "}
+      </p>
+      <p>
+        Większość naszych klientów to turyści zagraniczni, dlatego wymagamy od
+        barmanek/nów bardzo dobrej znajomości języka angielskiego (oprócz bardzo
+        dobrej znajomości języka polskiego oczywiście).{" "}
+      </p>
+      <p>
+        {" "}
+        Zainteresowane osoby prosimy o przesłanie CV na adres <a href={"mailto:contact@pubpropaganda.eu"}>
+          contact@pubpropaganda.eu </a> lub o pozostawienie swojego CV u nas w pubie.{" "}
+      </p>
+      <p>
+        O warunkach pracy, wynagrodzeniu itp. porozmawiamy tylko z wybranymi
+        osobami.
+      </p>
+    </div>
+  );
+};
+
 export const TshirtEng = () => {
   return (
     <div className="text">
@@ -132,7 +158,10 @@ export const Est = () => {
         {" "}
         - niedziela (9 kwietnia) lokal otwarty od godz 18.00 do godz. 3.00;{" "}
       </p>
-      <p> - poniedziałek (10 kwietnia) lokal otwarty od 17.00 do godz. 2.00. </p>
+      <p>
+        {" "}
+        - poniedziałek (10 kwietnia) lokal otwarty od 17.00 do godz. 2.00.{" "}
+      </p>
     </div>
   );
 };
@@ -148,4 +177,3 @@ export const EstEng = () => {
     </div>
   );
 };
-

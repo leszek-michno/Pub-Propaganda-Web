@@ -11,9 +11,9 @@ export const bottleBeer = [
     { id: 3, name: "Litovel Citron (0,5 l)", price: 13 },
     { id: 4, name: "Desperados (0,4 l)", price: 14 },
     { id: 7, name: "West Cost IPA (0,5 l)", price: 16 },
-    { id: 8, name: "Sour Mango (0,5 l)", price: 16 },
-    { id: 9, name: "Double IPA (0,5 l)", price: 16 },
-    { id: 10, name: "Piwo bezglutenowe", price: 14 },
+    { id: 8, name: "Cherry Sour (0,5 l)", price: 18 },
+    { id: 9, name: "Pinta IIPPAA (0,5 l)", price: 18 },
+    // { id: 10, name: "Piwo bezglutenowe", price: 14 },
   ];
 
 export const bottleWheatBeer = [
