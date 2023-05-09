@@ -1,10 +1,10 @@
 import React from 'react';
 
-export const OpenButton = (props) => {
+export const OpenButton = (item) => {
     return (
-        <div className="menu_text" key={props.id}>
-          <span>{props.name}</span>
-          <span>{props.price} zł </span>
+        <div className="menu_text" key={item.id}>
+          <span>{item.name}</span>
+          <span>{item.price} zł </span>
         </div>
       );
 

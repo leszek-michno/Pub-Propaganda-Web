@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import '../../styles/Menu.scss'
+import "../../styles/Menu.scss";
 import {
   draftBeer,
   bottleBeer,
@@ -9,7 +9,7 @@ import {
   wins,
   noAlco,
 } from "../../databases/MenuBase";
-import { OpenButton } from '../../components/MenuPosition';
+import { OpenButton } from "../../components/MenuPosition";
 
 const MenuPageEng = () => {
   const [isVisibleDraftBeer, setIsVisibleDraftBeer] = useState();
