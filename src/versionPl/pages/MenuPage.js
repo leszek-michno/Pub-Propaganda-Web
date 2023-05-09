@@ -10,13 +10,7 @@ import {
   noAlco,
 } from "../../databases/MenuBase";
 import {
-  DraftBeer,
-  BottleBeer,
-  WheatBeer,
-  StrongAlco,
-  NoAlcoBeer,
-  Wins,
-  NoAlco,
+  OpenButton
 } from "../../components/MenuPosition";
 
 const MenuPage = () => {
@@ -41,7 +35,7 @@ const MenuPage = () => {
         </button>
         <div>
           {isVisibleDraftBeer
-            ? draftBeer.map((item) => <DraftBeer key={item.id} {...item} />)
+            ? draftBeer.map((item) => <OpenButton key={item.id} {...item} />)
             : null}
         </div>
         <br />
@@ -54,7 +48,7 @@ const MenuPage = () => {
         </button>
         <div>
           {isVisibleBottelBeer
-            ? bottleBeer.map((item) => <BottleBeer key={item.id} {...item} />)
+            ? bottleBeer.map((item) => <OpenButton key={item.id} {...item} />)
             : null}
         </div>
         <br />
@@ -68,7 +62,7 @@ const MenuPage = () => {
         <div>
           {isVisibleWheatBeer
             ? bottleWheatBeer.map((item) => (
-                <WheatBeer key={item.id} {...item} />
+                <OpenButton key={item.id} {...item} />
               ))
             : null}
         </div>
@@ -82,7 +76,7 @@ const MenuPage = () => {
         </button>
         <div>
           {isVisibleNoAlcoBeer
-            ? noAlcoBeer.map((item) => <NoAlcoBeer key={item.id} {...item} />)
+            ? noAlcoBeer.map((item) => <OpenButton key={item.id} {...item} />)
             : null}
         </div>
         <br />
@@ -95,7 +89,7 @@ const MenuPage = () => {
         </button>
         <div>
           {isVisibleStrongAlco
-            ? strongAlco.map((item) => <StrongAlco key={item.id} {...item} />)
+            ? strongAlco.map((item) => <OpenButton key={item.id} {...item} />)
             : null}
         </div>
         <br />
@@ -109,7 +103,7 @@ const MenuPage = () => {
         </button>
         <div>
           {isVisibleWins
-            ? wins.map((item) => <Wins key={item.id} {...item} />)
+            ? wins.map((item) => <OpenButton key={item.id} {...item} />)
             : null}
         </div>
         <br />
@@ -123,7 +117,7 @@ const MenuPage = () => {
         </button>
         <div>
           {isVisibleNoAlco
-            ? noAlco.map((item) => <NoAlco key={item.id} {...item} />)
+            ? noAlco.map((item) => <OpenButton key={item.id} {...item} />)
             : null}
         </div>
         <br />
