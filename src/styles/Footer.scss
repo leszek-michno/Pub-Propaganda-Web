@@ -2,13 +2,14 @@
 
 .footer {
   display: block;
-  background-color: black;
+  background-color: $mainBackground;
   opacity: 0.9;
-  color: #fff;
+  color: $pageBackground;
   text-align: center;
   position: fixed;
   bottom: 0;
   width: 100%;
+  box-shadow: 2px 2px 7px $pageBackground;
 }
 .container {
   max-width: 1080px;
