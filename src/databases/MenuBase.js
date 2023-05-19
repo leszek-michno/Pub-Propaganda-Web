@@ -19,7 +19,7 @@ export const bottleBeer = [
 export const bottleWheatBeer = [
     { id: 1, name: "Litovel Pszeniczne (0,5 l)", price: 13 },
     { id: 2, name: "Żywiec Biały (0,5 l)", price: 13 },
-    { id: 3, name: "Cieszyn Pszeniczne (0,5 l)", price: 16 },
+    // { id: 3, name: "Cieszyn Pszeniczne (0,5 l)", price: 16 },
   ];
 
 export const noAlcoBeer = [
