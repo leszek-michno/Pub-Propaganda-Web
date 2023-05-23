@@ -2,14 +2,11 @@ import { PL } from 'country-flag-icons/react/3x2';
 import React, { useEffect, useState } from 'react';
 import { NavLink } from 'react-router-dom';
 import {AiOutlineMenu} from 'react-icons/ai';
-import img from '../images/pro4.webp';
 import '../styles/Navigation.scss';
-
 
 const NavigationEng = () => {
   const [toggleMenu, setToggleMenu] = useState(false);
   const [screenWidth, setScreenWidth] = useState(window.innerWidth);
-
 
   const toggleNav = () => {
     setToggleMenu(!toggleMenu);
@@ -43,9 +40,8 @@ const NavigationEng = () => {
 
   return (
     <nav className="list">
-    <img src={img} alt="logo" className="logo"/>
-      {(toggleMenu || screenWidth > 600) && <ul>{menu}</ul>}
-  
+    <img src={process.env.PUBLIC_URL + '/images/pro4.webp'} alt="logo" className="logo"/>
+      {(toggleMenu || screenWidth > 600) && <ul>{menu}</ul>}  
       <button onClick={toggleNav} className="btn"><AiOutlineMenu/></button>
     </nav>
   

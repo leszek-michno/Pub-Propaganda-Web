@@ -1,11 +1,11 @@
-// import img1 from '../images/Tshirt.webp';
-import img2 from "../images/img13.jpg";
-import img3 from '../images/hallow.png';
-import img6 from '../images/sylwek2022.png';
-import img4 from '../images/newyear.png';
-import img5 from '../images/xmas.png';
-import img7 from '../images/xmasEng.png';
-import img8 from "../images/redHeads.png";
+// // import img1 from '../images/Tshirt.webp';
+// import img2 from process.env.PUBLIC_URL + "/images/img13.jpg";
+// import img3 from process.env.PUBLIC_URL + '/images/hallow.png';
+// import img6 from process.env.PUBLIC_URL + '/images/sylwek2022.png';
+// import img4 from process.env.PUBLIC_URL + '/images/newyear.png';
+// import img5 from process.env.PUBLIC_URL + '/images/xmas.png';
+// import img7 from process.env.PUBLIC_URL + '/images/xmasEng.png';
+// import img8 from 
 import { JobOffer, Est, Hallow, HallowEng, EstEng, Sylwester, NewYear } from './TextsBase';
 
 
@@ -16,14 +16,14 @@ export const news = [
   {
     id: 6,
     title: "Praca w Propagandzie",
-    img: img8,
+    img: process.env.PUBLIC_URL + "/images/redHeads.png",
     text: <JobOffer/>,
   },
 
   {
     id: 2,
     title: "Wielkanoc w Propagandzie",
-    img: img2,
+    img: process.env.PUBLIC_URL + "/images/img13.jpg",
     text: <Est/>,
   },
   // {
@@ -35,20 +35,20 @@ export const news = [
   {
     id: 4,
     title: "Sylwester 2022!",
-    img: img6,
+    img: process.env.PUBLIC_URL + '/images/sylwek2022.png',
     text: <Sylwester/>,
   },
 
   {
     id: 5,
     title: "Święta w Propagandzie",
-    img: img5,
+    img: process.env.PUBLIC_URL + '/images/xmas.png',
   },
 
   {
     id: 3,
     title: "Noc pełna strachu!",
-    img: img3,
+    img: process.env.PUBLIC_URL + '/images/hallow.png',
     text: <Hallow/>,
   },
  
@@ -61,7 +61,7 @@ export const newsEng = [
   {
     id: 2,
     title: "Easter in Propaganda",
-    img: img2,
+    img: process.env.PUBLIC_URL + "/images/img13.jpg",
     text: <EstEng/>,
   },
   // {
@@ -73,18 +73,18 @@ export const newsEng = [
   {
     id: 4,
     title: "New Year's Eve 2022!",
-    img: img4,
+    img: process.env.PUBLIC_URL + '/images/newyear.png',
     text: <NewYear/>,
   },
   {
     id: 5,
     title: "Christmas at the Propaganda Pub",
-    img: img7,
+    img: process.env.PUBLIC_URL + '/images/xmasEng.png',
   },
   {
     id: 3,
     title: "Night of horror!",
-    img: img3,
+    img: process.env.PUBLIC_URL + '/images/hallow.png',
     text: <HallowEng/>,
   },
  

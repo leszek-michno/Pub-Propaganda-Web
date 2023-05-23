@@ -1,13 +1,13 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
-import img1 from "../../images/pro4.webp";
+// import img1 from "../../images/pro4.webp";
 
 export const NewsLink = () => {
   return (
     <div className="logo_links">
       <NavLink to="/english/news_Eng">
         <h2>News</h2>
-        <img src={img1} alt="propa logo" className="imgGray" />
+        <img src={process.env.PUBLIC_URL + '/images/pro4.webp'} alt="propa logo" className="imgGray" />
       </NavLink>
     </div>
   );
@@ -17,7 +17,7 @@ export const MenuLink = () => {
     <div className="logo_links">
       <NavLink to="/english/menu_Eng">
         <h2>Menu</h2>
-        <img src={img1} alt="propa logo" />
+        <img src={process.env.PUBLIC_URL + '/images/pro4.webp'} alt="propa logo" />
       </NavLink>
     </div>
   );
@@ -28,7 +28,7 @@ export const ContactLink = () => {
     <div className="logo_links">
       <NavLink to="/english/contact_Eng">
         <h2>Contact</h2>
-        <img src={img1} alt="propa logo" className="imgInvert" />
+        <img src={process.env.PUBLIC_URL + '/images/pro4.webp'} alt="propa logo" className="imgInvert" />
       </NavLink>
     </div>
   );
@@ -39,7 +39,7 @@ export const GalleryLink = () => {
     <div className="logo_links">
       <NavLink to="/english/photos_Eng">
         <h2>Gallery</h2>
-        <img src={img1} alt="propa logo" className="imgSepia" />
+        <img src={process.env.PUBLIC_URL + '/images/pro4.webp'} alt="propa logo" className="imgSepia" />
       </NavLink>
     </div>
   );
