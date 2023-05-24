@@ -1,12 +1,6 @@
 import React from 'react';
-
 import '../styles/Header.scss';
 import { Route, Routes } from "react-router-dom";
-
-// import img1 from "../images/redHeads.png";
-// import img2 from "../images/redHeads.png";
-// import img3 from "../images/redHeads.png";
-// import img5 from "../images/redHeads.png";
 
 const Img1 = () => <img src={process.env.PUBLIC_URL + "/images/redHeads.png"} alt="propa" className="imgSepia"/>;
 const Img2 = () => <img src={process.env.PUBLIC_URL + "/images/redHeads.png"} alt="propa" className="imgGray"/>;
