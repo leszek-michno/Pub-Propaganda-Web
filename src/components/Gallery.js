@@ -22,8 +22,8 @@ const Gallery =()=> {
             slideNumberStyle={slideNumberStyle}
             automatic={true}
             dots={true}
-            pauseIconColor="white"
-            pauseIconSize="40px"
+            // pauseIconColor="white"
+            // pauseIconSize="40px"
             style={{
               textAlign: "center",
               maxWidth: "850px",
