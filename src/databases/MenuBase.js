@@ -13,7 +13,7 @@ export const bottleBeer = [
     { id: 7, name: "Vermont IPA (0,5 l)", price: 18 },
     { id: 8, name: "Cherry Sour (0,5 l)", price: 18 },
     { id: 9, name: "Pinta IIPPAA (0,5 l)", price: 18 },
-    // { id: 10, name: "Piwo bezglutenowe", price: 14 },
+    { id: 10, name: "Gluten-free", price: 16 },
   ];
 
 export const bottleWheatBeer = [
@@ -51,7 +51,7 @@ export const strongAlco = [
     { id: 21, name: "Proper Twelve (40 ml)", price: 16 },
     { id: 22, name: "Ballantines (40 ml)", price: 14 },
     { id: 29, name: "Marker's Mark (40 ml)", price: 20 },
-    { id: 30, name: "Macallan (40 ml)", price: 40 },
+    // { id: 30, name: "Macallan (40 ml)", price: 40 },
     { id: 31, name: "J.A. Baczewski Whisky (40 ml)", price: 20 },
     { id: 23, name: "Baileys (40 ml)", price: 14 },
     { id: 25, name: "Malibu (40 ml)", price: 14 },
