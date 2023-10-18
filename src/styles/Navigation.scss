@@ -10,7 +10,7 @@
 }
 
 .active {
-  background-color: azure;
+  background-color: $mainBackground;
 }
 
 .navi {
@@ -39,14 +39,15 @@
      
     a {
       padding: 10px;
-      font-size: 20px;
+      font-size: 22px;
       font-weight: 200;
-      color: $pageBackground;
+      color: $mainColor;
       cursor: pointer;
       font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
       text-decoration: none;
       &:hover {
-        color: $mainColor;
+        color: rgb(180, 16, 16);
+        
       }
     }
   }
