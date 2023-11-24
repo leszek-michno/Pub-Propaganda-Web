@@ -51,7 +51,7 @@ export const strongAlco = [
     { id: 21, name: "Proper Twelve (40 ml)", price: 16 },
     { id: 22, name: "Ballantines (40 ml)", price: 15 },
     { id: 29, name: "Marker's Mark (40 ml)", price: 20 },
-    // { id: 30, name: "Macallan (40 ml)", price: 40 },
+    { id: 30, name: "Macallan (40 ml)", price: 40 },
     { id: 31, name: "J.A. Baczewski Whisky (40 ml)", price: 20 },
     { id: 23, name: "Baileys (40 ml)", price: 15 },
     { id: 25, name: "Malibu (40 ml)", price: 15 },

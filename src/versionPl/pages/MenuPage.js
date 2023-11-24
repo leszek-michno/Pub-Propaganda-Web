@@ -9,9 +9,7 @@ import {
   wins,
   noAlco,
 } from "../../databases/MenuBase";
-import {
-  OpenButton
-} from "../../components/MenuPosition";
+import { OpenButton } from "../../components/MenuPosition";
 
 const MenuPage = () => {
   const [isVisibleDraftBeer, setIsVisibleDraftBeer] = useState();
