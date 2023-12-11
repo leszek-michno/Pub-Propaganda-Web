@@ -59,6 +59,18 @@
       animation-fill-mode: both;
       font-size: 18px;
     }
+    
+  }
+
+  .shots {
+    column-count: 1;
+    .menu_text {
+      align-content: end;
+      .extraspan {
+        text-align: right;
+        width: 30%;
+      }
+    }
   }
 }
 

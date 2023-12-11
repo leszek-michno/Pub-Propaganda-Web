@@ -87,3 +87,37 @@ export const wins = [
     // { id: 17, name: "Orzeszki ziemne", price: 7 },
 
   ];
+
+  export const shots = [
+    { id: 1, name: "Wściekły pies (20 ml)", price: 12, composition: "spirytus, sok malinowy, tabasco" },
+    { id: 2, name: "Baby Giness (40 ml)", price: 13, composition: "soplica kawowa, Bailey's Irish Cream" },
+    { id: 3, name: "Czupa-czups (40 ml)", price: 12, composition: "wódka, syrop imbirowy, sok z cytryny" },
+    { id: 4, name: "Monte (40 ml)", price: 12, composition: "soplica orzech laskowy, mleko" },
+  ]
+
+  export const coctails    = [
+    { id: 1, name: "Cuba Libre", price: 23, composition: "rum 40 ml, cola, sok z cytryny" },
+    { id: 2, name: "Szarlotka", price: 20, composition: "Żubrówka 40 ml, sok jabłkowy, cynamon" },
+    { id: 3, name: "Jager Bomba", price: 27, composition: "Jagermeister 40 ml, Red Bull" },
+    { id: 4, name: "Tequila Sunrise", price: 23, composition: "Tequila 40 ml, sok pomarańczowy, grenadyna" },
+    { id: 5, name: "Antidotum", price: 28, composition: "Gorzka Żołądkowa Miętowa, Becherovka, cytryna, cola" },
+    { id: 6, name: "Oko Stalina", price: 20, composition: "piwo 250 ml, sok grejfrutowy, wiśniówka 20 ml" },
+    { id: 7, name: "Whiskey Sour", price: 20, composition: "Jameson 40 ml, syrop cukrowy, sok z cytryny" },
+  ]
+
+  export const shotsEng = [
+    { id: 1, name: "Mad Dog (20 ml)", price: 12, composition: "spirytus 15 ml, rasberry syrup, tabasco" },
+    { id: 2, name: "Baby Giness (40 ml)", price: 13, composition: "soplica coffee, Bailey's Irish Cream" },
+    { id: 3, name: "Czupa-czups (40 ml)", price: 12, composition: "vodka, ginger syrup, lemon juice" },
+    { id: 4, name: "Monte (40 ml)", price: 12, composition: "soplica hazelnut, milk" },
+  ]
+
+  export const coctailsEng    = [
+    { id: 1, name: "Cuba Libre", price: 23, composition: "rum 40 ml, cola, lemon juice" },
+    { id: 2, name: "Szarlotka", price: 20, composition: "Bison Grass 40 ml, apple juice, cinnamon" },
+    { id: 3, name: "Jager Bomba", price: 27, composition: "Jagermeister 40 ml, Red Bull" },
+    { id: 4, name: "Tequila Sunrise", price: 23, composition: "Tequila 40 ml, orange juice, grenadine" },
+    { id: 5, name: "Antidotum", price: 28, composition: "Gorzka Żołądkowa Mint, Becherovka, lemon, cola" },
+    { id: 6, name: "Stalin's Eye", price: 20, composition: "beer 250 ml, juice, cherry vodka 20 ml" },
+    { id: 7, name: "Whiskey Sour", price: 20, composition: "Jameson 40 ml, sweet syrup, lemon juice" },
+  ]

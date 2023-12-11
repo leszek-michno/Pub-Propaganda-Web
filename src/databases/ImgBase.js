@@ -19,4 +19,12 @@ export const data = [
     
     image: process.env.PUBLIC_URL + "/images/IMG4.webp",
   },
+  {
+    
+    image: process.env.PUBLIC_URL + "/images/IMG10.jpg",
+  },
+  {
+    
+    image: process.env.PUBLIC_URL + "/images/IMG11.jpg",
+  },
 ];

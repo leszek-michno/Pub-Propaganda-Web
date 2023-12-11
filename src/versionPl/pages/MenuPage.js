@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import "../../styles/Menu.scss";
-import {
+import {shots, 
   draftBeer,
   bottleBeer,
   bottleWheatBeer,
@@ -8,8 +8,9 @@ import {
   strongAlco,
   wins,
   noAlco,
+  coctails
 } from "../../databases/MenuBase";
-import { OpenButton } from "../../components/MenuPosition";
+import { OpenButton, OpenButtonShots} from "../../components/MenuPosition";
 
 const MenuPage = () => {
   const [isVisibleDraftBeer, setIsVisibleDraftBeer] = useState();
@@ -19,11 +20,44 @@ const MenuPage = () => {
   const [isVisibleStrongAlco, setIsVisibleStrongAlco] = useState();
   const [isVisibleWins, setIsVisibleWins] = useState();
   const [isVisibleNoAlco, setIsVisibleNoAlco] = useState();
+  const [isShots, setShots] = useState();
+  const [isCoctails, setIsCoctails] = useState();
+
 
   return (
     <div>
       <h1 className="menu_title">Menu</h1>
       <div className="menu">
+      
+      <button
+          onClick={() => {
+            setIsCoctails(!isCoctails);
+          }}
+        >
+          <h3>Koktaile</h3>
+        </button>
+        <div className="shots">
+          {isCoctails
+            ? coctails.map((item) => <OpenButtonShots key={item.id} {...item} />)
+            : null}
+        </div>
+        <br />
+
+
+      <button
+          onClick={() => {
+            setShots(!isShots);
+          }}
+        >
+          <h3>Szoty</h3>
+        </button>
+        <div className="shots">
+          {isShots
+            ? shots.map((item) => <OpenButtonShots key={item.id} {...item} />)
+            : null}
+        </div>
+        <br />
+
         <button
           onClick={() => {
             setIsVisibleDraftBeer(!isVisibleDraftBeer);
@@ -119,6 +153,8 @@ const MenuPage = () => {
             : null}
         </div>
         <br />
+
+       
       </div>
     </div>
   );
