@@ -1,24 +1,24 @@
-@import './Variables.scss';
+@import "./Variables.scss";
 
 @keyframes slideIn {
-    from {
-      transform: translateX(100%);
-    }
-    to {
-      transform: translateX(0);
-    }
+  from {
+    transform: translateX(100%);
   }
-  
-  .wrapper {
-    position: fixed;
-    top:20%; 
-    text-align: center;
-    background-color: $secondColor;
-    color: $mainColor;
-    width: 100%;
-    // margin:5%;
-    padding: 20px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
-    animation: slideIn 2s ease-in-out;
+  to {
+    transform: translateX(0);
   }
-  
+}
+
+.wrapper {
+  position: fixed;
+  top: 22%;
+  z-index: 1;
+  text-align: center;
+  background-color: $pageBackground;
+  color: $secondColor;
+  width: 100%;
+  margin: 10px 0;
+  padding: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+  animation: slideIn 1s ease-in-out;
+}

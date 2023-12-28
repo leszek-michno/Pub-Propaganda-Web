@@ -9,7 +9,7 @@ const NoteEng = () => {
 
     const timeoutId = setTimeout(() => {
       setShowNotification(false);
-    }, 9000);
+    }, 6000);
 
     return () => clearTimeout(timeoutId);
   }, []);
