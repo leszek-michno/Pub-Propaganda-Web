@@ -96,7 +96,7 @@ export const wins = [
   ]
 
   export const coctails    = [
-    { id: 1, name: "Cuba Libre", price: 23, composition: "rum 40 ml, cola, sok z cytryny" },
+    { id: 1, name: "Krwawa Mary", price: 22, composition: "wódka 40 ml, sok pomidorowy, tabasco" },
     { id: 2, name: "Szarlotka", price: 20, composition: "Żubrówka 40 ml, sok jabłkowy, cynamon" },
     { id: 3, name: "Jager Bomba", price: 27, composition: "Jagermeister 40 ml, Red Bull" },
     { id: 4, name: "Tequila Sunrise", price: 23, composition: "Tequila 40 ml, sok pomarańczowy, grenadyna" },
@@ -113,7 +113,7 @@ export const wins = [
   ]
 
   export const coctailsEng    = [
-    { id: 1, name: "Cuba Libre", price: 23, composition: "rum 40 ml, cola, lemon juice" },
+    { id: 1, name: "Bloody Mary", price: 22, composition: "vodka 40 ml, tomato juice, tabasco" },
     { id: 2, name: "Szarlotka", price: 20, composition: "Bison Grass 40 ml, apple juice, cinnamon" },
     { id: 3, name: "Jager Bomba", price: 27, composition: "Jagermeister 40 ml, Red Bull" },
     { id: 4, name: "Tequila Sunrise", price: 23, composition: "Tequila 40 ml, orange juice, grenadine" },

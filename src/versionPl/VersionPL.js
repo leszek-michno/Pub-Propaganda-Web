@@ -4,6 +4,7 @@ import Header from './Header';
 import Navigation from './Navigation';
 import Page from './Page';
 import '../styles/Navigation.scss';
+import Note from './pages/NotificationBar';
 
 
 const VersionPl = () => {
@@ -12,7 +13,10 @@ const VersionPl = () => {
     <div className='navi'>{<Navigation/>}</div>
     <BarName/>
     <header><Header/></header>
-    <main><Page/></main>
+    <main>
+        <Note/>
+        <Page/>
+    </main>
     </>
      );
 }

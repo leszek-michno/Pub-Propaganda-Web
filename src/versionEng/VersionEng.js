@@ -4,6 +4,7 @@ import PageEng from './PageEng';
 import '../styles/Navigation.scss';
 import NavigationEng from './NavigationEng';
 import HeaderEng from './HeaderEng';
+import NoteEng from './pagesEng/NotificationBarEng';
 
 
 const VersionEng = () => {
@@ -12,7 +13,10 @@ const VersionEng = () => {
     <div className='navi'>{<NavigationEng/>}</div>
     <BarName/>
     <header><HeaderEng/></header>
-    <main><PageEng/></main>
+    <main>
+        <NoteEng/>
+        <PageEng/>
+        </main>
     <footer></footer>    
     </>
      );

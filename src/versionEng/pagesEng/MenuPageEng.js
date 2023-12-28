@@ -145,7 +145,7 @@ const MenuPageEng = () => {
             setIsVisibleNoAlco(!isVisibleNoAlco);
           }}
         >
-          <h3>Alcohol-free drinks</h3>
+          <h3>Alcohol-free beverages</h3>
         </button>
         <div>
           {isVisibleNoAlco
