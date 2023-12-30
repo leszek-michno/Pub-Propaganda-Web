@@ -90,7 +90,7 @@ export const wins = [
 
   export const shots = [
     { id: 1, name: "Wściekły pies (20 ml)", price: 12, composition: "spirytus, sok malinowy, tabasco" },
-    { id: 2, name: "Baby Giness (40 ml)", price: 13, composition: "soplica kawowa, Bailey's Irish Cream" },
+    { id: 2, name: "Baby Giness (40 ml)", price: 13, composition: "Kahlua, Bailey's Irish Cream" },
     { id: 3, name: "Czupa-czups (40 ml)", price: 12, composition: "wódka, syrop imbirowy, sok z cytryny" },
     { id: 4, name: "Monte (40 ml)", price: 12, composition: "soplica orzech laskowy, mleko" },
   ]
@@ -107,7 +107,7 @@ export const wins = [
 
   export const shotsEng = [
     { id: 1, name: "Mad Dog (20 ml)", price: 12, composition: "spirytus 15 ml, rasberry syrup, tabasco" },
-    { id: 2, name: "Baby Giness (40 ml)", price: 13, composition: "soplica coffee, Bailey's Irish Cream" },
+    { id: 2, name: "Baby Giness (40 ml)", price: 13, composition: "Kahlua, Bailey's Irish Cream" },
     { id: 3, name: "Czupa-czups (40 ml)", price: 12, composition: "vodka, ginger syrup, lemon juice" },
     { id: 4, name: "Monte (40 ml)", price: 12, composition: "soplica hazelnut, milk" },
   ]

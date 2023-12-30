@@ -11,7 +11,7 @@ export const NotificationBarPL = () => {
   export const NotificationBarEng = () => {
     return (
       <h2 className="wrapper">
-        Info about New Year's Eve in "News" section
+        Information  about  New  Year's  Eve  in  "News"  section
       </h2>
     );
   };
