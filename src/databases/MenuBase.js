@@ -93,6 +93,7 @@ export const wins = [
     { id: 2, name: "Baby Giness (40 ml)", price: 13, composition: "Kahlua, Bailey's Irish Cream" },
     { id: 3, name: "Czupa-czups (40 ml)", price: 12, composition: "wódka, syrop imbirowy, sok z cytryny" },
     { id: 4, name: "Monte (40 ml)", price: 12, composition: "soplica orzech laskowy, mleko" },
+    {id: 5, name: "Tęczowe szoty (40 ml x 6)", price: 50, composition: "wódka, sok pomarańczowy, grenadyna, blue curacao"}, 
   ]
 
   export const coctails    = [
@@ -110,6 +111,7 @@ export const wins = [
     { id: 2, name: "Baby Giness (40 ml)", price: 13, composition: "Kahlua, Bailey's Irish Cream" },
     { id: 3, name: "Czupa-czups (40 ml)", price: 12, composition: "vodka, ginger syrup, lemon juice" },
     { id: 4, name: "Monte (40 ml)", price: 12, composition: "soplica hazelnut, milk" },
+    {id: 5, name: "Rainbow's shots (40 ml x 6)", price: 50, composition: "vodka, orange juice, grenadine, blue curacao"}, 
   ]
 
   export const coctailsEng    = [
