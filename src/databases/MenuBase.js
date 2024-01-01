@@ -1,8 +1,8 @@
 export const draftBeer = [
-    { id: 1, name: "Holba (0,5 l)", price: 12 },
-    { id: 2, name: "Holba (0,3 l)", price: 9 },
-    { id: 3, name: "Zubr - ciemny lager  (0,5 l)", price: 12 },
-    { id: 4, name: "Zubr - ciemny lager (0,3 l)", price: 9 },
+    { id: 1, name: "Holba (0,5 l)", price: 13 },
+    { id: 2, name: "Holba (0,3 l)", price: 10 },
+    { id: 3, name: "Zubr - ciemny lager  (0,5 l)", price: 13 },
+    { id: 4, name: "Zubr - ciemny lager (0,3 l)", price: 10 },
   ];
 
 export const bottleBeer = [
@@ -52,6 +52,7 @@ export const strongAlco = [
     { id: 22, name: "Ballantines (40 ml)", price: 15 },
     { id: 29, name: "Marker's Mark (40 ml)", price: 20 },
     { id: 30, name: "Macallan (40 ml)", price: 40 },
+    { id: 32, name: "Talisker (40 ml)", price: 30 },
     { id: 31, name: "J.A. Baczewski Whisky (40 ml)", price: 20 },
     { id: 23, name: "Baileys (40 ml)", price: 15 },
     { id: 25, name: "Malibu (40 ml)", price: 15 },

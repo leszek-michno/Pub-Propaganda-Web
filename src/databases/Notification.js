@@ -3,7 +3,7 @@ import '../styles/Notification.scss';
 export const NotificationBarPL = () => {
     return (
       <h2 className="wrapper">
-        Informacje dotyczące Sylwestra'23 w sekcji "Aktualności"
+       1 stycznia Propaganda czynna od godz.19:00
       </h2>
     );
   };
@@ -11,7 +11,7 @@ export const NotificationBarPL = () => {
   export const NotificationBarEng = () => {
     return (
       <h2 className="wrapper">
-        Information  about  New  Year's  Eve  in  "News"  section
+        January 1st Propaganda is open from 7 p.m.
       </h2>
     );
   };
