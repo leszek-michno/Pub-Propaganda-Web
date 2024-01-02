@@ -3,7 +3,7 @@ import '../styles/Notification.scss';
 export const NotificationBarPL = () => {
     return (
       <h2 className="wrapper">
-       1 stycznia Propaganda czynna od godz.19:00
+       Nie prowadzimy rezerwacji stolików.
       </h2>
     );
   };
@@ -11,7 +11,7 @@ export const NotificationBarPL = () => {
   export const NotificationBarEng = () => {
     return (
       <h2 className="wrapper">
-        January 1st Propaganda is open from 7 p.m.
+       We are not booking tables 
       </h2>
     );
   };
