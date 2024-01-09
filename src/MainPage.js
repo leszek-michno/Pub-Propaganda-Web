@@ -1,6 +1,6 @@
 import React from 'react';
 import BarName from './components/BarName';
-import LinkVersionPl from './components/LinkVerionPl';
+import LinkVersionPl from './components/LinkVersionPl';
 import LinkVersionEng from './components/LinkVersionEng';
 import './styles/MainPage.scss'
 
