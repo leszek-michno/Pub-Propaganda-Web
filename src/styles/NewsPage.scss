@@ -1,0 +1,86 @@
+@import './Variables.scss';
+
+.info {
+margin-bottom: 8%;
+
+}
+
+.news {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 2%;
+
+    .newpage{
+
+        width: 30%;
+        background-color: $mainBackground;
+        padding: 10px;
+        box-shadow: 2px 5px 20px $pageBackground;
+        p {
+            color: $pageBackground;
+            font-size: $midiSize;
+            font-weight: $secondWeight;
+            margin: 5px 0 15px 0;        
+        }
+        img {
+            border: solid 1px $pageBackground;
+        }
+        .text {
+            p {
+                color: $pageBackground;
+                font-size: $textSize;
+                font-weight: $secondWeight;
+                line-height: 1.5;
+                margin: 0;
+                a {
+                    padding: 5px;
+                    font-size: 18px; 
+                    color: $mainColor;
+                    text-decoration: none;
+                    &:hover {
+                    color: blue;        
+                    }
+                }
+        }    
+        span {
+            color: $pageBackground;
+            font-size: $textSize;
+            font-weight: $secondWeight;
+            line-height: 1.5;
+        }
+
+        }
+    }
+}
+
+@media screen and (max-width: 2100px) {
+    .news {
+        .newpage{            
+            width: 35%;
+           
+}}}
+@media screen and (max-width: 1600px) {
+    .news {
+        .newpage{            
+            width: 35%;
+           
+}}}
+@media screen and (max-width: 1240px) {
+    .news {
+        .newpage{            
+            width: 40%;
+           
+}}}
+@media screen and (max-width: 1100px) {
+    .news {
+        .newpage{            
+            width: 60%;
+           
+}}}
+@media screen and (max-width: 700px) {
+    .news {
+        .newpage{            
+            width: 90%;
+           
+}}}
