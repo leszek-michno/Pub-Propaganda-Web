@@ -1,0 +1,110 @@
+@import './Variables.scss'; 
+
+@keyframes list {
+  from {
+    opacity: 0,
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.active {
+  background-color: $mainBackground;
+}
+
+.navi {
+  position: fixed;
+  z-index: 1;
+  width: 100%;
+  top: 0;
+ 
+  }
+  img {
+    width: 100%;
+  }
+  .navi_flags{
+    width: 30px;
+    border: solid black 1px;
+  }
+.list {
+    list-style-type: none;
+    background-color: $mainBackground;
+    box-shadow: 2px 2px 7px $pageBackground;
+    opacity: 0.9;
+    height: 50px;
+    display: flex;
+    padding:  10px 0 10px 0;
+    width: 100%;
+     
+    a {
+      padding: 10px;
+      font-size: 22px;
+      font-weight: 200;
+      color: $mainColor;
+      cursor: pointer;
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      text-decoration: none;
+      &:hover {
+        color: rgb(180, 16, 16);
+        
+      }
+    }
+  }
+    
+  li {
+    list-style-type: none;
+    display: inline;
+  }
+  
+  .logo {
+    width: 30px;
+    height: 30px;
+    margin: 0 5px 5px 5px;
+  }
+  
+  .btn {
+    width: 100%;
+    display: none;
+    position: absolute;
+    border: none;
+  }
+  
+  @media screen and (max-width: 600px) {
+   
+   a {
+    font-size: 20px;
+    transition: linear 1s;
+    
+   }
+    .list {
+      transition: width 2s;
+      flex-direction: column;
+      height: auto;
+      position: relative;
+      opacity: 1; 
+  
+    }
+  
+    li {
+      display: block;
+      width: 100%;
+      text-align: center;
+      padding: 15px;
+      background-color: $mainBackground;
+      animation-name: list;
+      animation-duration: 0.5s; 
+      animation-fill-mode: both;
+    }
+  
+    .btn {
+      display: block;
+      background-color: $mainBackground;
+      width: 100%;
+      color: $pageBackground;
+      padding: 5px 25px 12px 0;
+      text-align: right;
+      font-size: 24px;
+    }
+   
+  }
