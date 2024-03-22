@@ -1,8 +1,21 @@
-import { JobOffer, Est, Hallow, HallowEng, EstEng, Sylwester, NewYear } from './TextsBase';
+import { HandsomeEng, Handsome, JobOffer, Est, Hallow, HallowEng, EstEng, Sylwester, NewYear } from './TextsBase';
 
 //polish version
 
 export const news = [
+  
+  {
+    id: 2,
+    title: "Wielkanoc w Propagandzie",
+    img: process.env.PUBLIC_URL + "/images/sepia.jpeg",
+    text: <Est/>,
+  },
+  {
+    id: 1,
+    title: "Live Show w Propagandzie!",
+    img: process.env.PUBLIC_URL + '/images/handsome-boys2.png',
+    text: <Handsome/>,
+  },
   {
     id: 4,
     title: "Sylwester 2023!",
@@ -16,12 +29,7 @@ export const news = [
     text: <JobOffer/>,
   },
 
-  {
-    id: 2,
-    title: "Wielkanoc w Propagandzie",
-    img: process.env.PUBLIC_URL + "/images/img13.jpg",
-    text: <Est/>,
-  },
+  
   // {
   //   id: 5,
   //   title: "Święta w Propagandzie",
@@ -39,18 +47,26 @@ export const news = [
 
 //english version
 export const newsEng = [
+  
+  {
+    id: 2,
+    title: "Easter in Propaganda",
+    img: process.env.PUBLIC_URL + "/images/sepia.jpeg",
+    text: <EstEng/>,
+  },
+  {
+    id: 1,
+    title: "Live Show in Propaganda Pub!",
+    img: process.env.PUBLIC_URL + '/images/handsome-boys2.png',
+    text: <HandsomeEng/>,
+  },
   {
     id: 4,
     title: "New Year's Eve 2023!",
     img: process.env.PUBLIC_URL + '/images/newyear.png',
     text: <NewYear/>,
   },
-  {
-    id: 2,
-    title: "Easter in Propaganda",
-    img: process.env.PUBLIC_URL + "/images/img13.jpg",
-    text: <EstEng/>,
-  },
+  
   // {
   //   id: 5,
   //   title: "Christmas at the Propaganda Pub",

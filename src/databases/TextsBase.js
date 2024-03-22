@@ -1,6 +1,30 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
 
+export const Handsome = () => {
+  return (
+    <div className="text">
+      <p>
+        W najbliższą sobotę (24 lutego) duet Handsome Boys zagra w Pubie
+        Propaganda! Dużo fajnej muzyki w stylu rockabilly i psychobilly.
+        Początek o godz. 20.00.
+      </p>
+    </div>
+  );
+};
+
+export const HandsomeEng = () => {
+  return (
+    <div className="text">
+      <p>
+        This Saturday (February 24) the Handsome Boys duo will play at Pub
+        Propaganda! Lots of cool rockabilly and psychobilly music. Start at 8
+        p.m.
+      </p>
+    </div>
+  );
+};
+
 export const NewYear = () => {
   return (
     <div className="text">
@@ -88,7 +112,7 @@ export const Tshirt = () => {
 export const JobOffer = () => {
   return (
     <div className="text">
-      <br/>
+      <br />
       <p>
         Szukamy osób z doświadczeniem barmańskim do pracy w naszym pubie. Praca
         jest ciężka (w godzinach popołudniowych i nocnych).{" "}
@@ -100,8 +124,11 @@ export const JobOffer = () => {
       </p>
       <p>
         {" "}
-        Zainteresowane osoby prosimy o przesłanie CV na adres <a href={"mailto:contact@pubpropaganda.eu"}>
-          contact@pubpropaganda.eu </a> lub o pozostawienie swojego CV u nas w pubie.{" "}
+        Zainteresowane osoby prosimy o przesłanie CV na adres{" "}
+        <a href={"mailto:contact@pubpropaganda.eu"}>
+          contact@pubpropaganda.eu{" "}
+        </a>{" "}
+        lub o pozostawienie swojego CV u nas w pubie.{" "}
       </p>
       <p>
         O warunkach pracy, wynagrodzeniu itp. porozmawiamy tylko z wybranymi
@@ -152,15 +179,19 @@ export const Est = () => {
   return (
     <div className="text">
       <br />
-      <p> - piątek (7 kwietnia) lokal otwarty od godz. 18.00 do godz. 4.00; </p>
-      <p> - sobota (8 kwietnia) lokal zamknięty; </p>
+      <p>Lokal otwarty: </p>
+      <p> - piątek (29 marca) od godz. 18.00 do godz. 4.00; </p>
       <p>
         {" "}
-        - niedziela (9 kwietnia) lokal otwarty od godz 18.00 do godz. 3.00;{" "}
+        - sobota (30 marca) od godz. 18.00 do godz. 2.00;{" "}
       </p>
       <p>
         {" "}
-        - poniedziałek (10 kwietnia) lokal otwarty od 17.00 do godz. 2.00.{" "}
+        - niedziela (31 marca) od godz 18.00 do godz. 2.00;
+      </p>
+      <p>
+        {" "}
+        - poniedziałek (1 kwietnia) od 17.00 do godz. 2.00.{" "}
       </p>
     </div>
   );
@@ -170,10 +201,11 @@ export const EstEng = () => {
   return (
     <div className="text">
       <br />
-      <p>- Friday (April 7) the pub is open from 6 pm to 4 am;</p>
-      <p>- Saturday (April 8) the pub is closed;</p>
-      <p>- Sunday (April 9) the pub is open from 6 pm to 3 am </p>
-      <p>- Monday (April 10) the pub is open from 5 pm to 2.00 am. </p>
+      <p>Pub is open:</p>
+      <p>- Friday (March 29) from 6 pm to 4 am;</p>
+      <p>- Saturday (March 30) from 6 pm to 2 am;</p>
+      <p>- Sunday (March 31) from 6 pm to 2 am </p>
+      <p>- Monday (April 1) from 5 pm to 2 am. </p>
     </div>
   );
 };
