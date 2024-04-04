@@ -29,6 +29,7 @@ const Gallery =()=> {
               maxWidth: "850px",
               maxHeight: "500px",
               margin: "40px auto",
+              // loading: "lazy",
             }}
           />
         </div>
