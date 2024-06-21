@@ -5,7 +5,7 @@ const News = (item) => {
       <div className="news">
       <div className="newpage">
         <p>{item.title}{" "}</p>
-        <img src={item.img} alt="logo" />
+        <img src={item.img} alt="logo" loading="lazy"/>
         <span>{item.text}</span>  
       </div>
     </div>

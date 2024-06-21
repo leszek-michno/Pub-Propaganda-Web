@@ -3,7 +3,7 @@ import {
   AiOutlineInstagram,
   AiOutlineFacebook,
   AiOutlineMail,
-  AiOutlineGoogle,
+  // AiOutlineGoogle,
 } from "react-icons/ai";
 import '../../styles/Contact.scss';
 
@@ -32,13 +32,13 @@ const ContactPage = () => {
         >
           <AiOutlineInstagram />
         </a>
-        <a
+        {/* <a
           href={"https://pubpropaganda.business.site/"}
           target="_blank"
           rel="noopener noreferrer"
         >
           <AiOutlineGoogle />
-        </a>
+        </a> */}
         <a href={"mailto:contact@pubpropaganda.eu"}>
           <AiOutlineMail />
         </a>

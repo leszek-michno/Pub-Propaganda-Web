@@ -22,6 +22,7 @@ const Gallery =()=> {
             slideNumberStyle={slideNumberStyle}
             automatic={true}
             dots={true}
+            loading="lazy"
             // pauseIconColor="white"
             // pauseIconSize="40px"
             style={{
@@ -29,7 +30,7 @@ const Gallery =()=> {
               maxWidth: "850px",
               maxHeight: "500px",
               margin: "40px auto",
-              // loading: "lazy",
+              loading: "lazy",
             }}
           />
         </div>
